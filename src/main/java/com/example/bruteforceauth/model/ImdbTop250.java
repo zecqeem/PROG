@@ -1,6 +1,8 @@
 package com.example.bruteforceauth.model;
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "imdb_top")
 public class ImdbTop250 {
@@ -16,7 +18,6 @@ public class ImdbTop250 {
 
     public ImdbTop250() {
     }
-
     public ImdbTop250(int rank, String title, String year, String rating) {
         this.rank = rank;
         this.title = title;

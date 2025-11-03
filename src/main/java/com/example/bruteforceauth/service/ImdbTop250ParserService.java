@@ -67,7 +67,7 @@ public class ImdbTop250ParserService {
 
                 rank++;
             } catch (Exception e) {
-                System.err.println("❌ Ошибка парсинга: " + e.getMessage());
+                System.err.println("❌ Parse err: " + e.getMessage());
             }
         }
 

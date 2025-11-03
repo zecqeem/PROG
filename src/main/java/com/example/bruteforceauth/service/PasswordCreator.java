@@ -24,6 +24,7 @@ public class PasswordCreator {
         boolean hasDigit = false;
         int charsetSize = 0;
         char[] measuringPassword = password.toCharArray();
+        //can be a method
         for (int i = 0; i < measuringPassword.length; i++) {
             if (Character.isLowerCase(measuringPassword[i])) {
                 hasLowercase = true;

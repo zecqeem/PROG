@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.List;
-
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/imdb")
 public class ImdbController {
@@ -63,7 +63,7 @@ public class ImdbController {
     @GetMapping("/excel/protected")
     public ResponseEntity<byte[]> downloadExcelWithPassword(@RequestParam String password) throws Exception {
         List<ImdbTop250> movies = imdbTop250ParserService.getAllMovies();
-        byte[] workbook = excelService.generateImdbTop250Excel(movies);
+        byte[] workbook = excelService.generateImdbTop250Excel(movies);//can delete due to prev method
         byte[] encrypted = encryptionService.encryptWorkbook(workbook, password);
 
         return ResponseEntity.ok()

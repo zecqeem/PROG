@@ -20,3 +20,4 @@ CREATE TABLE IF NOT EXISTS imdb_top (
                              year VARCHAR(10),
                              rating VARCHAR(10)
 );
+drop table imdb_top;
