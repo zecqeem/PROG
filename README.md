@@ -96,7 +96,7 @@ Tests follow the **Page Object Model** for clarity and maintainability.
 #### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/zecqeem/PROG.git
-
+```
 #### 2️⃣ Configure the Database
 • Create a PostgreSQL database.
 •	Update your application.properties (or application.yml) with credentials.
