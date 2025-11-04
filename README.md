@@ -98,18 +98,18 @@ Tests follow the **Page Object Model** for clarity and maintainability.
 git clone https://github.com/zecqeem/PROG.git
 ```
 #### 2️⃣ Configure the Database
-• Create a PostgreSQL database.
-•	Update your application.properties (or application.yml) with credentials.
+Create a PostgreSQL database.
+Update your application.properties (or application.yml) with credentials.
 
 #### 3️⃣ Build & Run Backend (Spring Boot)
 ```bash
 mvn clean install
 mvn spring-boot:run
-
+```
 #### 4️⃣ Run Frontend (React/Vite)
 ```bash
 npm install
 npm run dev
-
+```
 **The application will be available at:**
 👉 http://localhost:3000
