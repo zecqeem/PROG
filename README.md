@@ -34,9 +34,8 @@ Full authentication cycle implemented with **Brute Force protection** and **comp
 - **Hashing & Security:** AES encryption + [argon2-jvm](https://github.com/phxql/argon2-jvm) for password hashing  
 
 ### 💻 Frontend
-- **Framework:** React + Vite  
+- **Framework:** React + Vite (Frontend developed via Figma/LLM for demonstration purposes)  
 - **Language:** JavaScript / TypeScript  
-- **Design:** Figma / LLM-assisted prototype  
 
 ### 🧪 Testing
 - **UI/E2E Testing:** Selenium WebDriver (via WebDriverManager)  
